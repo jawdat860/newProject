@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  /* this is for header color */
+  --header-bg-1:#EEECEA;
+  --header-bg-2:#FFF;
+  --header-text-1:#000000;
+  --header-text-1-hover:#FF5A00;
+  --header-text-2:#000000;
+  --header-text-2-hover:#FF5A00;  
+  --header-text-button:#fff;
+  --header-bg-button:#FF5A00;
+
+  /* this is for  body*/
+  --body-text-color:#000;
+  --body-bg-color:#fff; 
+  --body-text-weight:400;
+
+  /* this is for buttons color */
+  --button-1-bg:#fff;
+  --button-1-bg-hover:#ffffff80;
+  --button-1-text:#000;
+  --button-1-text-hover:#00000088;
+
+  --button-2-bg:#000;
+  --button-2-bg-hover:#00000088;
+  --button-2-text:#fff;
+  --button-2-text-hover:#ffffff80;
+
+  --button-3-bg:#fff;
+  --button-3-bg-hover:#ffffff80;
+  --button-3-text:#000;
+  --button-3-text-hover:#00000088;
+  --button-3-border:#000;
+
+  --button-4-bg:#FF5A00;
+  --button-4-bg-hover:#ff590086;
+  --button-4-text:#fff;
+  --button-4-text-hover:#ffffff80;
+
+  --button-5-bg:#627867;
+  --button-5-bg-hover:#62786793;
+  --button-5-text:#fff;
+  --button-5-text-hover:#ffffff80;
+
+ --bannerSlider-bg:#EEECEA;
+
+
+}
+body {
+  background: var(--body-bg-color);
+  color: var(--body-text-color);
+  font-weight: var(--body-text-weight);
+}
+.genn-fl-row {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+
+}
