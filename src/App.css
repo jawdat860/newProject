@@ -1,0 +1,12 @@
+.genn-Baner-container{
+    position: relative;
+}
+.genn-SliderBaner-container{
+    padding: 57px ;
+    background-color: var(--bannerSlider-bg);
+
+}
+.genn-Categoryes{
+    padding: 57px ;
+    background-color: var(--bannerSlider-bg);
+}
